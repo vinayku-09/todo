@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+
+}
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+}
+button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: deepskyblue;
+}
+button:active{
+    background-color: blue;
+    color:white
+}
+.text ul {
+  position: relative;
+  background-color: rgb(5, 31, 3);
+  color: white;
+  font-size: 19px;
+  text-align: left;         /* fixed typo: was "text-algin" */
+  cursor: pointer;
+  padding: 7px 10px;
+  display: flex;
+  justify-content: space-between;  /* space between text & icon */
+  align-items: center;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: white;
+}
+.text:hover,
+.text ul:hover {
+  background-color: lightgray;
+}
+.text ul li {
+    list-style: none;
+    padding: 10px;
+}
